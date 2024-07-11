@@ -31,7 +31,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnr2cIpAbxu32ce__6vwmr8vuLWbz5L4M&callback=initialize&libraries=places&v=weekly"
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ config('services.google_maps.api_key') }}&callback=initialize&libraries=places&v=weekly"
       defer></script>
 
     <script>

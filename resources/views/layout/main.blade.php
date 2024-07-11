@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     {{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> --}}
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnr2cIpAbxu32ce__6vwmr8vuLWbz5L4M"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ config('services.google_maps.api_key') }}"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 <body>
